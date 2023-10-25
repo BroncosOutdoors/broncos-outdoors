@@ -1,0 +1,36 @@
+[debug] [2023-10-25T01:38:04.338Z] ----------------------------------------------------------------------
+[debug] [2023-10-25T01:38:04.341Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\GGPC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-10-25T01:38:04.341Z] CLI Version:   12.7.0
+[debug] [2023-10-25T01:38:04.341Z] Platform:      win32
+[debug] [2023-10-25T01:38:04.341Z] Node Version:  v20.7.0
+[debug] [2023-10-25T01:38:04.341Z] Time:          Wed Oct 25 2023 14:38:04 GMT+1300 (New Zealand Daylight Time)
+[debug] [2023-10-25T01:38:04.342Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-25T01:38:04.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-25T01:38:04.449Z] > authorizing via signed-in user (stiaan@broncos.co.nz)
+[debug] [2023-10-25T01:38:04.449Z] [iam] checking project bronco-s-outdoors for permissions ["firebase.projects.get"]
+[debug] [2023-10-25T01:38:04.451Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/bronco-s-outdoors:testIamPermissions [none]
+[debug] [2023-10-25T01:38:04.451Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/bronco-s-outdoors:testIamPermissions x-goog-quota-user=projects/bronco-s-outdoors
+[debug] [2023-10-25T01:38:04.451Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bronco-s-outdoors:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-10-25T01:38:05.544Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/bronco-s-outdoors:testIamPermissions 200
+[debug] [2023-10-25T01:38:05.544Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bronco-s-outdoors:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-10-25T01:38:05.545Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bronco-s-outdoors [none]
+[debug] [2023-10-25T01:38:06.331Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bronco-s-outdoors 200
+[debug] [2023-10-25T01:38:06.331Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bronco-s-outdoors {"projectId":"bronco-s-outdoors","projectNumber":"4405930517","displayName":"Bronco's Outdoors","name":"projects/bronco-s-outdoors","resources":{"hostingSite":"bronco-s-outdoors","realtimeDatabaseInstance":"bronco-s-outdoors-default-rtdb","storageBucket":"bronco-s-outdoors.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_81f3a7bc-e4ac-449e-97e8-32d7e84a1a03"}
+[info] 
+[info] === Serving from 'C:\Users\GGPC\Desktop\Broncos Outdoors\broncos-outdoors'...
+[info] 
+[debug] [2023-10-25T01:38:06.335Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/bronco-s-outdoors/sites 
+[debug] [2023-10-25T01:38:08.067Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/bronco-s-outdoors/sites 200
+[debug] [2023-10-25T01:38:08.067Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/bronco-s-outdoors/sites {"sites":[{"name":"projects/bronco-s-outdoors/sites/bronco-s-outdoors","defaultUrl":"https://bronco-s-outdoors.web.app","appId":"1:4405930517:web:d94b1481065474adb67c1c","type":"DEFAULT_SITE"}]}
+[debug] [2023-10-25T01:38:08.068Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bronco-s-outdoors/webApps/1:4405930517:web:d94b1481065474adb67c1c/config [none]
+[debug] [2023-10-25T01:38:09.115Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bronco-s-outdoors/webApps/1:4405930517:web:d94b1481065474adb67c1c/config 200
+[debug] [2023-10-25T01:38:09.115Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bronco-s-outdoors/webApps/1:4405930517:web:d94b1481065474adb67c1c/config {"projectId":"bronco-s-outdoors","appId":"1:4405930517:web:d94b1481065474adb67c1c","databaseURL":"https://bronco-s-outdoors-default-rtdb.firebaseio.com","storageBucket":"bronco-s-outdoors.appspot.com","locationId":"us-central","apiKey":"AIzaSyBD4aOo0R_QmbrzP_p-A0DUxrHgpwV0onk","authDomain":"bronco-s-outdoors.firebaseapp.com","messagingSenderId":"4405930517","measurementId":"G-CV9DRX9R68"}
+[debug] [2023-10-25T01:38:09.120Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bronco-s-outdoors [none]
+[debug] [2023-10-25T01:38:09.728Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bronco-s-outdoors 200
+[debug] [2023-10-25T01:38:09.728Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bronco-s-outdoors {"projectId":"bronco-s-outdoors","projectNumber":"4405930517","displayName":"Bronco's Outdoors","name":"projects/bronco-s-outdoors","resources":{"hostingSite":"bronco-s-outdoors","realtimeDatabaseInstance":"bronco-s-outdoors-default-rtdb","storageBucket":"bronco-s-outdoors.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_81f3a7bc-e4ac-449e-97e8-32d7e84a1a03"}
+[info] i  hosting[bronco-s-outdoors]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[bronco-s-outdoors]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [25/Oct/2023:01:41:49 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [25/Oct/2023:01:41:49 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [25/Oct/2023:01:41:49 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [25/Oct/2023:01:41:49 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [25/Oct/2023:01:41:49 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [25/Oct/2023:01:41:49 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\""}}
